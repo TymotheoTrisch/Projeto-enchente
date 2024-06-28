@@ -50,9 +50,6 @@
     border-radius: 7px;
     margin-bottom: 1%;
    }
-   .github i{
-    font-size: 25px;
-   }
 
    .linkedin{
     width: 90%;
@@ -66,9 +63,6 @@
     color: #FFFFFF;
     border-radius: 7px;
     margin-bottom: 1%;
-   }
-   .linkedin i{
-    font-size: 25px;
    }
 
 
@@ -85,7 +79,16 @@
     border-radius: 7px;
     margin-bottom: 1%;
    }
-   .instagram i{
+
+   .link {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    width: fit-content;
+   }
+
+   .link i {
+    margin-right: 5px;
     font-size: 25px;
    }
 }
