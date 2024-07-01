@@ -1,0 +1,106 @@
+@media (max-width : 720px) {
+
+    header {
+        width: 100%;
+        height: 10vh;
+        margin: 14px 0;
+    }
+
+    .header_contato {
+        width: calc(100% - 28px);
+        height: 10vh;
+        background-color: #C89E85;
+        display: flex;
+        gap: 28px;
+        align-items: center;
+        border-radius: 30px;
+        margin: auto;
+    }
+
+    .header_contato h1 {
+        color: #FFFFFF;
+    }
+
+    .header_contato i {
+        margin-left: 10%;
+    }
+
+    .sub_header {
+        font-size: 12px;
+        margin-left: 8%;
+        color: #8d8d8d;
+    }
+
+    main{
+        margin: 0 14px;
+        margin-top: 5vh;
+    }
+
+    .container {
+        width: 100%;
+        margin-bottom: 18px;
+        background-color: #EDEDED;
+        border-radius: 15px;
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: fit-content;
+        border-radius: 15px;
+        padding: 15px;
+        position: relative;
+
+        background-color: #fff;
+        
+    }
+
+    .icon-text {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        color: #C89E85;
+    }
+
+    .escondida-corpo {
+        display: none;
+        padding: 23px;
+        color: #C89E85;
+        transition: transform 0.3s ease;
+    }
+
+    .icon {
+        padding: 7px;
+        border-radius: 8px;
+        background-color: #EDEDED;
+    }
+
+    .cabecalho input {
+        all: unset;
+
+        position: absolute;
+        inset: 0;
+
+        cursor: pointer;
+        z-index: 4;
+    }
+    
+    .cabecalho i {
+        transition: transform 0.1s linear;
+    }
+
+    .cabecalho:has(input:checked) i {
+        transform: rotate(90deg);
+    }
+
+    .cabecalho:has(input:checked) + .escondida-corpo {
+        display: block;
+        transform: translateY(50px);
+    }
+
+
+
+
+}
