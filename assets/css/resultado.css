@@ -6,7 +6,7 @@
         margin: 14px 0;
     }
 
-    .header_contato {
+    .header {
         width: calc(100% - 28px);
         height: 10vh;
         background-color: #C89E85;
@@ -17,11 +17,11 @@
         margin: auto;
     }
 
-    .header_contato h1 {
+    .header h1 {
         color: #FFFFFF;
     }
 
-    .header_contato i {
+    .header i {
         margin-left: 10%;
     }
 
@@ -107,19 +107,25 @@
         display: block;
         /* transform: translateY(50px); */
     }
+    
+    .salvar-resultado {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .salvar-resultado .text {
+        color: #8d8d8d;
+    }
 
-    button {
+    .btn-salvar {
         width: 190px;
         height: 50px;
         background-color: #C89E85;
         border-radius: 7px;
         color: #FFFFFF;
-    }
-
-    .centralizar_botao {
-       display: flex;
-       justify-content: center;
-       align-items: center;
+        border: none;
+        margin: 5vh auto;
+        cursor: pointer;
     }
 
 
